@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-color: brown;
+            align-items: center;
+            display: inline-block;
+        }
+        .container {
+            align-items: center;
+
+        }
+    </style>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("img").hide();
+  });
+  $("#show").click(function(){
+    $("img").show();
+  });
+});
+</script>
+</head>
+<body>
+<div class="container">
+<img src="smart boy  interacti (6).jpg">
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</div>
+</body>
+</html>
